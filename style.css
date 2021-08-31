@@ -1,0 +1,112 @@
+.topwave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.topwave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.topwave .shape-fill {
+    fill: #362222;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .topwave svg {
+        width: calc(135% + 1.3px);
+        height: 79px;
+    }
+}
+
+.bottomwave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.bottomwave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.bottomwave .shape-fill {
+    fill: #362222;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .bottomwave svg {
+        width: calc(135% + 1.3px);
+        height: 79px;
+    }
+}
+
+.intro{
+    border-radius: 5px;
+    padding: 2px;
+    height: 60vh;
+    width: 90vw;
+    background-color: #ecd0b5;
+    margin: auto;
+    margin-top: 20vh;
+    box-shadow: 2px 2px 0 0 ;
+}
+.intro h3{
+    text-align: center;
+    color: #030200;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+.option button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 1px !important;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid rgb(214, 135, 135) ;
+}
+.option{
+ padding: 3px;
+ height: 40px !important;
+ width: 50px !important;
+}
+.math{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/* 
+#ede0d4
+#ede0d4 */
+.inputdata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputdata input{
+    width: 100px;
+    height: 40px;
+}
